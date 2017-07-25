@@ -12,7 +12,6 @@ var clearName = function() {
 
     greetingBtn.addEventListener("click", function(){
         greetingArea.innerText += "\n" + greetingBtn.value + " " + whoAreYou.value;
-        // document.getElementById("who-to-greet").value = "";
         clearName;
     });
 
